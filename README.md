@@ -34,7 +34,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-✅ Before running: Add your OpenAI API key in `.env` file like:
+Before running: Add your OpenAI API key in `.env` file like:
 
 ```env
 OPENAI_API_KEY=your_api_key_here
@@ -62,7 +62,7 @@ OPENAI_API_KEY=your_api_key_here
 
 ## MCP Flow
 
-```mermaid
+```
 flowchart TD
     A[User Uploads Files] --> B[File Chunking + Embedding]
     B --> C[LangChain Retriever]
